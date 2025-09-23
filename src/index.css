@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+/* Spin + scale keyframes */
+@import "tailwindcss";
+
+/* Zoom + color transition keyframes */
+@keyframes zoom-in-color {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+    color: white;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    color: #ae35cc; /* Tailwind text-fuchsia-400 */
+  }
+}
+
+.animate-zoom-in-color {
+  animation: zoom-in-color 2s ease-out forwards;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes bgFloat {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-floating {
+  animation: floating 4s ease-in-out infinite;
+}
+
+.animate-bg {
+  background: linear-gradient(270deg, #f5f3ff, #f1edf5, #f7f4f5);
+  background-size: 400% 400%;
+  animation: bgFloat 12s ease-in-out infinite;
+}
+
