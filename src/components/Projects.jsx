@@ -1,5 +1,5 @@
 // src/components/Projects.jsx
-import Space_picture from "../assets/Spacepic.png";
+import Space_picture from "../assets/spacepic.png";
 import Educity  from "../assets/Educitys.png";
 
 import Adventure from '../assets/Adventure.png'
