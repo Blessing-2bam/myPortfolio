@@ -1,8 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
-/* Spin + scale keyframes */
-@import "tailwindcss";
 
 /* Zoom + color transition keyframes */
 @keyframes zoom-in-color {
