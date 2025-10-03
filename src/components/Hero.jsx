@@ -26,7 +26,7 @@ export default function Hero() {
       strings: [
         `Have you ever wanted to take a peek at a web designer’s portfolio?<br>
         Well, you’re in luck! Keep scrolling to explore some of my recent 
-        <span class="text-purple-400 font-semibold">Squarespace website design projects</span>.`,
+        <span class="text-purple-400 font-semibold"> website design projects</span>.`,
       ],
       typeSpeed: 40, // speed of typing
       backSpeed: 0, // no backspacing
@@ -54,7 +54,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Centered Content */}
-      <div className="relative z-10 text-center max-w-3xl border border-purple-400 p-6 rounded-md shadow-lg bg-black/10 backdrop-blur-md mx-auto mt-50 shadow-lg hover:shadow-purple-500/50 transition-shadow duration-300">
+      <div className="relative z-10 text-center max-w-3xl border border-purple-400 p-6 rounded-md shadow-lg bg-black/10 backdrop-blur-md mx-auto   shadow-lg hover:shadow-purple-500/50 transition-shadow duration-300">
         <h2 className="font-carefree text-4xl md:text-4xl font-bold mb-4 text-pink-50">
           Web Design Created Just for You
         </h2>

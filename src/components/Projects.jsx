@@ -19,10 +19,10 @@ export default function Projects() {
     { title: "SpaceView Website ", desc: "Explore the wonders of space, from stars to galaxies, all in one place.", link: "https://sppaace.netlify.app", img: Space_picture  ,tech: ["CSS", "JavaScript", "Media Query"] },
     { title: "Beauty Project", desc: "Creative Beauty design work.", link: "https://beeauty.netlify.app", img:Beauty , tech: ["CSS", "JavaScript", "Media Query"]  },
     { title: "LOOPSTUDIOS", desc: "Interactive web project.", link: "https://loopstuudio.netlify.app", img: Loopstudio , tech: ["CSS", "JavaScript", "Media Query"]  },
-     { title: "Educity", desc: "An Insurance website", link: "#", img: Educity , tech: ["CSS", "JavaScript", "Media Query"]  },
+     { title: "Educity", desc: "An Insurance website", link: "https://educity-mauve.vercel.app", img: Educity , tech: ["CSS", "JavaScript", "Media Query"]  },
   
     { title: "Adventure project", desc: "Explore the World with this creative design work.", link: "https://adventture.netlify.app", img: Adventure , tech: ["CSS", "JavaScript", "Media Query"]  },
-    { title: "Multistep Form", desc: "An Insurance website", link: "#", img: Multistep , tech: ["CSS", "JavaScript", "Media Query"]  },
+    { title: "Multistep Form", desc: "An Insurance website", link: "https://multi-step-responsive-project-with.vercel.app", img: Multistep , tech: ["CSS", "JavaScript", "Media Query"]  },
       ];
 
   return (
